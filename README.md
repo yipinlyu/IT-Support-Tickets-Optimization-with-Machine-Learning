@@ -16,9 +16,16 @@ wrong team: for example, a ticket which should have been categorized as a teleph
  References:
 
 [1] 	Altintas, M., & Tantug, A. C. (2014). Machine learning based ticket classification in issue tracking systems. In Proceedings of International Conference on Artificial Intelligence and Computer Science (AICS 2014).
+
 [2] 	Brownlee, J. (2018). Long Short-Term Memory Networks With Python. Retrieved from https://machinelearningmastery.com/lstms-with-python/.
+
 [3] 	Brownlee, J. (2018). Deep Learning for Natural Language Processing. Retrieved from https://machinelearningmastery.com/lstms-with-python/.
+
 [4] 	Eckstein, L., Kuehl, N., & Satzger, G. (2016, August). Towards Extracting Customer Needs from Incident Tickets in IT Services. In Business Informatics (CBI), 2016 IEEE 18th Conference on (Vol. 1, pp. 200-207). IEEE. 
+
 [5] 	Beneker, D., & Gips, C. (2017). Using Clustering for Categorization of Support Tickets.
+
 [6] 	Weyburne, J. (2017, February 27). Building an Organizational Chart in Tableau. Retrieved from https://www.dataplusscience.com/SimpleOrgChart.html.
+
 [7] 	Gandrud,C. Allaire, JJ. Russell,K. and Yetman, CJ. (2017, March 18). networkD3: D3 JavaScript Network Graphs from R. Retrived from http://christophergandrud.github.io/networkD3/.
+
