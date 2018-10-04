@@ -184,7 +184,7 @@ def vectorization(X_train, X_test, mode):
     category_to_id = dict(category_id_df.values)
     id_to_category = dict(category_id_df[['category_id', 'category']].values)
     
-    N = 2
+    N = 3
     for Product, category_id in sorted(category_to_id.items()):
         features_chi2 = chi2(features, labels == category_id)
         indices = np.argsort(features_chi2[0])
