@@ -37,7 +37,6 @@ def to_one_hot(y):
 
 
 def data_preprocessing(train, test, max_len):
-    '''transform to one-hot idx vector by VocabularyProcess'''
     vocab_processor = tf.contrib.learn.preprocessing.VocabularyProcessor(max_len)
     x_transform_train = vocab_processor.fit_transform(train)
     x_transform_test = vocab_processor.transform(test)
@@ -52,7 +51,6 @@ def data_preprocessing(train, test, max_len):
 
 
 def split_dataset(x_test, y_test, dev_ratio):
-    '''split test dataset to test and dev set with ratio '''
     test_size = len(x_test)
     print(test_size)
     dev_size = (int)(test_size * dev_ratio)
@@ -65,7 +63,6 @@ def split_dataset(x_test, y_test, dev_ratio):
 
 
 def fill_feed_dict(data_X, data_Y, batch_size):
-    '''Generator to yield batches'''
     # Shuffle data first.
     perm = np.random.permutation(data_X.shape[0])
     data_X = data_X[perm]
