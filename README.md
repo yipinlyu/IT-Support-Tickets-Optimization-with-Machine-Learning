@@ -4,13 +4,13 @@ A potential problem in the current tickets system is that ticket descriptions mi
 wrong team: for example, a ticket which should have been categorized as a telephone problem is sent to the Windows 10 support team which can do nothing but sending back the problem. Consequently, it would take some additional days to solve the problem and waste the human resources. Therefore, we need to find out some solutions to optimize the present tickets system. Primarily, the project should mainly cover the following three objectives:
 
 
-(1) Integrate the Machine Learning techniques in the IBM Watson Natural Language Classifier to automatically assign IT Support tickets to some categories.
+(1) Used NB, SVM and LSTM to classify these tickets to different categories.
 
 
-(2) Examine the output generated from the IBM Watson and analyze the false assignment. Adapt the existing code and train the machine learning models.
+(2) Used IBM Watson to to the same work.Examined the output generated from the IBM Watson and analyze the false assignment. Adaptd the existing code and train the machine learning models.
 
 
-(3) Use the trained models to re-entitle categories to support the training of analysts.
+(3) Used the topic modeling to extract topics of each categories to support the training of analysts.
 
 
  References:
