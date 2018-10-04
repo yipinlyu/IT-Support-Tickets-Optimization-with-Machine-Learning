@@ -14,9 +14,9 @@ SemanticRolesOptions,  ConceptsOptions, MetadataOptions
 
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
-  username='91d1adfd-9aad-4a61-8df3-02565be4d281',
-  password='pRcRlngZUArG',
-  version='2018-03-16')
+  username='',
+  password='',
+  version='')
 
 import os
 os.chdir("D:/Intern/Project/")
