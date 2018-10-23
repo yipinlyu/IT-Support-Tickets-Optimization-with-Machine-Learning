@@ -34,7 +34,7 @@ tickets are strikingly distinct from the selected data.
 **1. Main Framework**
 
 ![Test Image 4](https://github.com/yipinlyu/IT-support-tickets-optimization-with-machine-learning/blob/master/framework.png)
-**Figure 1. The Process of Classification using the IBM Watson**
+                        **Figure 1. The Process of Classification using the IBM Watson**
 
 The Fig. 1 illustrates the overall framework of Project No.1.
 
