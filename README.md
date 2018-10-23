@@ -106,8 +106,7 @@ will present the process of Topic Modeling which consists of three parts: (1)
 deep data cleaning, (2) text vectorization, and (3) running topic modeling
 algorithms[4] [5] .
 
-First, the requirement for data cleaning is different from that described in
-Section 2.3. We need to conduct deeper data cleaning otherwise there would be
+First, I conducted deep data cleaning otherwise there would be
 numerous useless words and characters in the output data set. The first step I
 adopted was to replace the “IP address” with "ip", and to remove non-linguistic
 patterns, e. g. punctuation, numbers, email addresses, URLs, etc. Next, I used
