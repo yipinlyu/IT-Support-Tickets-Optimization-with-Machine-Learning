@@ -5,6 +5,7 @@ Created on Thu Jun 28 15:19:09 2018
 @author: yipin
 """
 
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
@@ -12,7 +13,8 @@ from tensorflow.contrib.rnn import BasicLSTMCell
 from tensorflow.python.ops.rnn import bidirectional_dynamic_rnn as bi_rnn
 import time
 import os
-os.chdir("D:/Intern/Project/")
+from sklearn.model_selection import train_test_split
+os.chdir("C:/Intern/Project/")
 os.getcwd()
 
 
@@ -72,8 +74,8 @@ def fill_feed_dict(data_X, data_Y, batch_size):
         y_batch = data_Y[batch_size * idx: batch_size * (idx + 1)]
         yield x_batch, y_batch
         
-def main():
-    df = pd.read_csv('./Data/correct_cleane_all.csv',encoding = 'cp1252')
+if __name__ == "__main__":
+    df = pd.read_csv('./Data/correct_cleaned_all.csv',encoding = 'cp1252')
     X = df['short_desc_cleaned']
     y = df['category_id']
     
@@ -174,8 +176,3 @@ def main():
                 cnt += 1        
         
         print("Test accuracy : %f %%" % ( test_acc / cnt * 100))
-
-
-
-    
-    
