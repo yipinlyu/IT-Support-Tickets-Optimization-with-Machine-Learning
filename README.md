@@ -1,4 +1,4 @@
-*IT-support-tickets-optimization-with-machine-learning*
+**IT-support-tickets-optimization-with-machine-learning**
 
 
 **Problem and Objectives**
