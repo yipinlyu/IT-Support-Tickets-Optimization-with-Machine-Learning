@@ -28,7 +28,7 @@ KEEP_PROB = 0.5
 LAMBDA = 0.0001
 
 MAX_LABEL = 14
-epochs = 10
+epochs = 50
 
 
 
