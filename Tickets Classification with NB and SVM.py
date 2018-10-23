@@ -114,7 +114,7 @@ def vectorization(X_train, X_test, mode):
 
 
 
-def main():
+if __name__ == "__main__":
 
     df = pd.read_csv('./Data/merge_all_cleaned.csv',encoding = 'cp1252')
 
